@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Witcher</title>
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background-image: url('back img the witcher.jpeg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      height: 120vh; 
+      color: white;
+    }
+    nav {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+    }
+    li {
+      margin: 0 20px;
+      position: relative;
+    }
+    li a {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      padding: 10px 15px;
+      display: block;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+    li a:hover {
+      transform: scale(1.5);
+      color: #bb1d1d;
+    }
+    li a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 3px;
+      background-color: #FFD700;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      transition: width 0.3s ease;
+    }
+
+    li a:hover::after {
+      width: 100%;
+    }
+    .content {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      grid-gap: 20px;
+      padding: 50px;
+      height: 100vh;
+      flex-grow: 1;
+    }
+    .main-text{
+      grid-column: 1 /span 2;
+      text-align: center;
+    }
+    h1 {
+      font-size: 50px;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    }
+    p {
+      font-size: 20px;
+      line-height: 1.4;
+      text-shadow: 2px 2px 10px rgba(0,0,0,0.8);
+    }
+    .right-text {
+      grid-column: 2 / 3;
+      align-self: flex-start;
+      text-align: left;
+    }
+    .bottom-left-text {
+      grid-column: 2 / 2;
+      align-self: flex-start;
+    }
+    .bottom-right-text {
+      grid-column: 2 / 3;
+      align-self: start;
+    }
+
+  </style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="https://witcher.fandom.com/pt-br/wiki/The_Witcher_3:_Wild_Hunt" target="_blank">História</a></li>
+    <li><a href="https://witcher.fandom.com/pt-br/wiki/Categoria:Personagens_de_The_Witcher_3" target="_blank">Personagens</a></li>
+    <li><a href="https://www.thewitcher.com/us/pt-br/witcher3#news" target="_blank">Novidades</a></li>
+    <li><a href="https://witcher.fandom.com/pt-br/wiki/Besti%C3%A1rio_de_The_Witcher_3" target="_blank">Bestiário</a></li>
+    <li><a href="https://buy.thewitcher.com/pt-br_br/" target="_blank">Loja</a></li>
+  </ul>
+</nav>
+<div class="content">
+  <div class="main-text" id="historia">
+  <h1>The Witcher</h1>
+  <p>Você é Geralt, da cidade de Rívia. Ao seu redor, todas as cidades e os povoados dos Reinos do Norte estão sendo devastados pela força sobrenatural de um exército invasor, conhecido apenas como Caçada Selvagem, que deixa um rastro sangrento de pura destruição por onde passa.
+
+    Você descobrirá uma história complexa e envolvente e conhecerá personagens inesquecíveis enquanto se prepara para um confronto estrondoso com a Caçada Selvagem. Ao explorar os Reinos do Norte, você descobrirá que há mistérios à espreita em cada vilarejo, árvore e sombra.
+
+  </p>
+</div>
+<div class="right-text">
+  <p>
+Cace uma grande variedade de monstros sedentos de sangue, desde feras selvagens que rondam passagens nas montanhas até astutos predadores sobrenaturais à espreita nas sombras das movimentadas ruas da cidade.
+
+  </p>
+</div>
+<div class="bottom-left-text">
+  <p> Percorra um reino fantástico e diverso. Investigue ruínas esquecidas e cace em planícies abertas, montanhas e mares. Conheça personagens inesquecíveis e faça escolhas que vão além do bem e do mal, mas prepare-se para encarar as consequências que virão. 
+
+  </p>
+</div>
+<div class="bottom-right-text">
+  <p> Invista suas recompensas em armas e armaduras melhoradas ou desfrute de uma rodada de Gwent, uma emocionante corrida de cavalos ou uma boa briga só com os punhos. A vida não se resume a matar monstros por umas moedas.
+  </p>
+</div>
+</body>
+</html>
