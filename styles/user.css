@@ -9,10 +9,10 @@
 .user picture {
     width: 200px;
     height: 200px;
-    border-radius: 12px; /* arrendontar a imagem ou não */
+    border-radius: 12px; 
     box-shadow: var(--shadow-image);
 
-    margin-top: -70px; /* Botar a imagem ao meio só dividir pelo tamanho dela */
+    margin-top: -70px; 
 }
 
 .user picture img {
