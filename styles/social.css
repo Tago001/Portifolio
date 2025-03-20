@@ -1,8 +1,8 @@
 .social {
     display: flex;
-    column-gap: 8px; /* afastar elementos */
+    column-gap: 8px; 
 
-    margin-top: 24px; /* afastart a div */
+    margin-top: 24px; 
 }
 .social_link {
     width: 46px;
