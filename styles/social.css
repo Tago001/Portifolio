@@ -11,7 +11,6 @@
     background: var(--background-body);
     color: var(--secondary);
     text-decoration: none;
-    /* Garente que o icone fique no meio */
     display: flex;
     align-items: center;
     justify-content: center;
