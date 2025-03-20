@@ -4,10 +4,10 @@
 }
 .project__content {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr; /* afastamento entre as imagens */
-    gap: 32px; /* gap entre as imagens */
+    grid-template-columns: 1fr 1fr 1fr; 
+    gap: 32px; 
 
-    margin-top: 16px; /* afastar do h2 */
+    margin-top: 16px; 
 }
 
 .project {
@@ -47,9 +47,9 @@
 .project div {
     display: flex;
     gap: 4px;
-    flex-wrap: wrap; /* tags elementos para baixo */
+    flex-wrap: wrap; 
     padding: 0 8px;
-    margin-top: auto; /* orientar as tags embaixo */
+    margin-top: auto; 
 }
 
 .project div span {
